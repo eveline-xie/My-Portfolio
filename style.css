@@ -36,6 +36,7 @@ body {
 
 .nav-links:hover{
     border-bottom: 3px solid #ea97ad;
+    font-size: 20px;
 }
 
 
@@ -85,12 +86,12 @@ hr{
 
 .home-words{
     padding-top: 30px;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 1.5;
 }
 
 .intro-line{
-    font-size: 25px;
+    font-size: 35px;
 }
 .intro-name{
     font-size: 60px;
@@ -284,7 +285,7 @@ footer{
     }
     .home{
         display: flex;
-        margin:40px 15vw;
+        margin:150px 15vw 65px 15vw;
         height:598px;
     }
 
@@ -349,7 +350,7 @@ footer{
 
     .contacts{
         display: flex;
-        padding: 30px 300px 30px 300px;
+        padding: 20px 300px 20px 300px;
         justify-content: center;
     }
 
