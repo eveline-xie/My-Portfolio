@@ -370,3 +370,12 @@ footer{
     }
     
 }
+
+@media only screen and (max-width: 600px) {
+    .home-section{
+        margin: 0% auto 16% auto;
+    }
+    .home-left{
+        margin: 30% auto 0 auto;
+    }
+  }
