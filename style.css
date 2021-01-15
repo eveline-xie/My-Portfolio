@@ -120,6 +120,7 @@ hr{
 
 .intro-button{
     background-color: #ea97ad;
+    border-radius: 5%;
     border: none;
     color: #045762;
     padding: 15px 32px;
@@ -250,6 +251,58 @@ footer{
 }
 
 /* form */
+.contact-form{
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.page-title-contact{
+    padding-top: 70px;
+    padding-bottom: 20px;
+    color: #045762;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.contact-form input[type=text], .contact-form input[type=email], select, textarea {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+.contact-form textarea{
+    height: 200px;
+}
+.form-button {
+    background-color: #ea97ad;
+    border: none;
+    color: #045762;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5%;
+    
+  }
+  .form-button:hover{
+      opacity: 0.8;
+  }
+
+  .form-row, .contact-words{
+      margin: 5px auto;
+  }
+
+  .contact-words{
+      width: 80%;
+      color: #045762;
+  }
+
 
 
 @media screen and (min-width: 768px) {
@@ -364,6 +417,14 @@ footer{
         height: 200px;
     }
   
+
+    select, textarea {
+        width: 50%;
+    }
+
+    .contact-form input[type=text], .contact-form input[type=email]{
+        width: 25%;
+    }
     
 }
 

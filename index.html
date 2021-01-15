@@ -124,7 +124,7 @@
        
         <div class="about-text">
             <p>
-                Hi, my name is Yang Xie, but I go by Eveline. I'm a Sophoremore pursuing a BS in Computer Science at Stony Brook University. I'm interested in Web Development and Software Engineering, and open for internships right now.
+                Hi, my name is Yang Xie, but I go by Eveline. I'm a Sophoremore pursuing a BS in Computer Science at Stony Brook University. I'm interested in Web Development and Software Engineering.
             </p>
             <br>
             <p>
@@ -134,26 +134,26 @@
             <p>
                 At my leisure, I love picking up new crafting skills like painting 🎨, sewing 🧵, and knitting 🧶. I'm also into fashion and I'm trying to learn how to flip clothes 👚.
             </p>
-
+            <br>
         </div>
     </section>
 
     <!-- contact -->
     <section id="contact-container" class="contact-me">
-        <h1 class="page-title">Get In Touch</h1>
-        <div >
+        <h1 class="page-title-contact">Get In Touch</h1>
+        <div class="contact-form">
+            <p class="contact-words">Leave a message below! I'm open to internships and freelance work. Or you just want to get to know me 👀</p>
+            <br>
             <form name="contact" method="POST" data-netlify="true">
-                <p>
-                  <input type="text" name="name" placeholder="Your Name" autocomplete="off"/> 
+                <p >
+                  <input class="form-row" type="text" name="name" placeholder="Your Name" autocomplete="off"/> 
+                  <input class="form-row" type="email" name="email" placeholder="Your Email" autocomplete="off"/>
                 </p>
-                <p>
-                  <input type="email" name="email" placeholder="Your Email" autocomplete="off"/>
-                </p>
-                <p>
+                <p class="form-row">
                   <textarea name="message" placeholder="Type your message" autocomplete="off"></textarea>
                 </p>
-                <p>
-                  <button type="submit">Send</button>
+                <p class="form-row">
+                  <button type="submit" class="form-button">Send</button>
                 </p>
               </form>
         </div>
